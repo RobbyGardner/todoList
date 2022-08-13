@@ -9,9 +9,8 @@ export default function App() {
       <View style={styles.taskWrapper}>
         <Text style={styles.sectionTitle}>Today's tasks</Text>
         <View style={styles.items}>
-          <Task />
-          <Task />
-          <Task />
+          <Task text={"Task 1"} />
+          <Task text={"Task 2"} />
           {/*This is where the tasks will go!*/}
         </View>
       </View>
