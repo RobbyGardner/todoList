@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   KeyboardAvoidingView,
   Platform,
@@ -11,6 +11,8 @@ import {
 import Task from "./components/Task";
 
 export default function App() {
+  const [task, setTask] = useState();
+
   return (
     <View style={styles.container}>
       <View style={styles.taskWrapper}>
